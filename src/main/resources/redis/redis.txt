@@ -1,0 +1,11 @@
+#默认业务
+defaultDomain=business_redis
+
+#login_redis配置
+defaultDomain.host=127.0.0.1
+defaultDomain.port=6379
+defaultDomain.timeoutMill=1500
+#defaultDomain.password=w_4ilnabZvn1nS
+defaultDomain.maxTotal=200
+defaultDomain.maxIdle=20
+defaultDomain.minIdle=5
